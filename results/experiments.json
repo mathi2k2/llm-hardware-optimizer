@@ -1,0 +1,361 @@
+{
+  "dataset": {
+    "configs": 536,
+    "models": 19,
+    "families": 9,
+    "moe_models": 7,
+    "clusters": 20
+  },
+  "e1": {
+    "consumer_share_of_feasible_cells": {
+      "Llama-3.2-3B": 1.0,
+      "Llama-3.1-8B": 1.0,
+      "Gemma-3-12B": 0.8888888888888888,
+      "Phi-4-14B": 0.8888888888888888,
+      "Qwen3-14B": 0.8888888888888888,
+      "Mistral-Small-3.1-24B": 1.0,
+      "Gemma-3-27B": 1.0,
+      "Qwen3-32B": 0.875,
+      "Llama-3.3-70B": 0.0,
+      "Qwen2.5-72B": 0.0,
+      "Mistral-Large-123B": 0.0,
+      "Llama-3.1-405B": 0.0,
+      "Qwen3-30B-A3B": 1.0,
+      "gpt-oss-120B": 0.8888888888888888,
+      "Qwen3-235B-A22B": 0.0,
+      "GLM-4.6-357B": 0.0,
+      "Llama-4-Maverick-400B": 0.0,
+      "DeepSeek-V3.2-685B": 0.0,
+      "Kimi-K2-1T": 0.0
+    },
+    "infeasible_cells": 81,
+    "total_cells": 1026
+  },
+  "e2": {
+    "nstar_curves_checked": 182,
+    "nstar_match_rate_first_order": 0.8846153846153846,
+    "nstar_match_rate_exact": 1.0,
+    "second_gpu_multiple": {
+      "RTX 4090 \u00b7 Llama-3.1-8B INT8": 2.04,
+      "L40S \u00b7 Qwen3-14B INT8": 1.2,
+      "H100 SXM \u00b7 Llama-3.3-70B INT4": 1.78,
+      "H200 SXM \u00b7 Llama-3.1-405B INT4": 2.96,
+      "H200 SXM \u00b7 gpt-oss-120B INT4": 0.85
+    }
+  },
+  "e3": {
+    "int4_dividend": {
+      "Llama-3.2-3B": 4.22,
+      "Llama-3.1-8B": 5.06,
+      "Gemma-3-12B": 6.23,
+      "Phi-4-14B": 5.88,
+      "Qwen3-14B": 5.88,
+      "Mistral-Small-3.1-24B": 5.95,
+      "Gemma-3-27B": 6.05,
+      "Qwen3-30B-A3B": 7.44,
+      "Qwen3-32B": 6.05,
+      "Llama-3.3-70B": 4.71,
+      "Qwen2.5-72B": 4.71,
+      "gpt-oss-120B": 7.5,
+      "Mistral-Large-123B": 4.71,
+      "Qwen3-235B-A22B": 4.96,
+      "GLM-4.6-357B": 5.54,
+      "Llama-4-Maverick-400B": 5.25,
+      "Llama-3.1-405B": 5.1
+    },
+    "int4_best_tier": {
+      "Llama-3.2-3B": "Consumer",
+      "Llama-3.1-8B": "Consumer",
+      "Gemma-3-12B": "Consumer",
+      "Phi-4-14B": "Consumer",
+      "Qwen3-14B": "Consumer",
+      "Mistral-Small-3.1-24B": "Consumer",
+      "Gemma-3-27B": "Consumer",
+      "Qwen3-30B-A3B": "Consumer",
+      "Qwen3-32B": "Consumer",
+      "Llama-3.3-70B": "Enterprise",
+      "Qwen2.5-72B": "Enterprise",
+      "gpt-oss-120B": "Consumer",
+      "Mistral-Large-123B": "Enterprise",
+      "Qwen3-235B-A22B": "Enterprise",
+      "GLM-4.6-357B": "Enterprise",
+      "Llama-4-Maverick-400B": "Enterprise",
+      "Llama-3.1-405B": "Enterprise",
+      "DeepSeek-V3.2-685B": "Enterprise",
+      "Kimi-K2-1T": "Enterprise"
+    },
+    "int8_dividend": {
+      "Llama-3.2-3B": 2.0,
+      "Llama-3.1-8B": 2.53,
+      "Gemma-3-12B": 2.67,
+      "Phi-4-14B": 2.39,
+      "Qwen3-14B": 2.39,
+      "Mistral-Small-3.1-24B": 2.83,
+      "Gemma-3-27B": 3.03,
+      "Qwen3-30B-A3B": 2.24,
+      "Qwen3-32B": 2.71,
+      "Llama-3.3-70B": 2.0,
+      "Qwen2.5-72B": 2.0,
+      "gpt-oss-120B": 2.35,
+      "Mistral-Large-123B": 2.35,
+      "Qwen3-235B-A22B": 2.11,
+      "GLM-4.6-357B": 2.35,
+      "Llama-4-Maverick-400B": 2.35,
+      "Llama-3.1-405B": 2.17
+    }
+  },
+  "e4": {
+    "mc_draws": 400,
+    "robust_core": {
+      "Llama-3.1-8B": [
+        {
+          "config": "2x RTX 3090",
+          "quant": "INT4",
+          "prob": 1.0,
+          "tier": "Consumer"
+        },
+        {
+          "config": "4x RTX 4090",
+          "quant": "INT4",
+          "prob": 0.975,
+          "tier": "Consumer"
+        },
+        {
+          "config": "1x H100 SXM",
+          "quant": "INT4",
+          "prob": 0.892,
+          "tier": "Enterprise"
+        },
+        {
+          "config": "2x RTX 4090",
+          "quant": "INT4",
+          "prob": 0.77,
+          "tier": "Consumer"
+        }
+      ],
+      "Qwen3-32B": [
+        {
+          "config": "2x H200 SXM",
+          "quant": "INT4",
+          "prob": 1.0,
+          "tier": "Enterprise"
+        },
+        {
+          "config": "4x RTX 4090",
+          "quant": "INT4",
+          "prob": 0.932,
+          "tier": "Consumer"
+        },
+        {
+          "config": "1x H200 SXM",
+          "quant": "INT4",
+          "prob": 0.887,
+          "tier": "Enterprise"
+        },
+        {
+          "config": "2x H100 SXM",
+          "quant": "INT4",
+          "prob": 0.302,
+          "tier": "Enterprise"
+        }
+      ],
+      "Llama-3.3-70B": [
+        {
+          "config": "4x H200 SXM",
+          "quant": "INT4",
+          "prob": 0.998,
+          "tier": "Enterprise"
+        },
+        {
+          "config": "2x H200 SXM",
+          "quant": "INT4",
+          "prob": 0.935,
+          "tier": "Enterprise"
+        },
+        {
+          "config": "1x H200 SXM",
+          "quant": "INT4",
+          "prob": 0.88,
+          "tier": "Enterprise"
+        },
+        {
+          "config": "4x RTX 4090",
+          "quant": "INT4",
+          "prob": 0.425,
+          "tier": "Consumer"
+        }
+      ],
+      "gpt-oss-120B": [
+        {
+          "config": "4x H200 SXM",
+          "quant": "INT4",
+          "prob": 0.975,
+          "tier": "Enterprise"
+        },
+        {
+          "config": "4x RTX 4090",
+          "quant": "INT4",
+          "prob": 0.93,
+          "tier": "Consumer"
+        },
+        {
+          "config": "1x H200 SXM",
+          "quant": "INT4",
+          "prob": 0.922,
+          "tier": "Enterprise"
+        },
+        {
+          "config": "8x H100 SXM",
+          "quant": "INT4",
+          "prob": 0.905,
+          "tier": "Enterprise"
+        }
+      ],
+      "Qwen3-235B-A22B": [
+        {
+          "config": "8x H200 SXM",
+          "quant": "INT4",
+          "prob": 1.0,
+          "tier": "Enterprise"
+        },
+        {
+          "config": "2x H200 SXM",
+          "quant": "INT4",
+          "prob": 0.905,
+          "tier": "Enterprise"
+        },
+        {
+          "config": "4x H200 SXM",
+          "quant": "INT4",
+          "prob": 0.902,
+          "tier": "Enterprise"
+        },
+        {
+          "config": "8x H100 SXM",
+          "quant": "INT4",
+          "prob": 0.328,
+          "tier": "Enterprise"
+        }
+      ],
+      "Llama-4-Maverick-400B": [
+        {
+          "config": "8x H200 SXM",
+          "quant": "INT4",
+          "prob": 1.0,
+          "tier": "Enterprise"
+        },
+        {
+          "config": "4x H200 SXM",
+          "quant": "INT4",
+          "prob": 0.93,
+          "tier": "Enterprise"
+        },
+        {
+          "config": "4x A100 80GB",
+          "quant": "INT4",
+          "prob": 0.662,
+          "tier": "Enterprise"
+        },
+        {
+          "config": "2x H200 SXM",
+          "quant": "INT4",
+          "prob": 0.492,
+          "tier": "Enterprise"
+        }
+      ],
+      "Llama-3.1-405B": [
+        {
+          "config": "8x H200 SXM",
+          "quant": "INT4",
+          "prob": 1.0,
+          "tier": "Enterprise"
+        },
+        {
+          "config": "4x H200 SXM",
+          "quant": "INT4",
+          "prob": 0.912,
+          "tier": "Enterprise"
+        },
+        {
+          "config": "8x H100 SXM",
+          "quant": "INT4",
+          "prob": 0.323,
+          "tier": "Enterprise"
+        },
+        {
+          "config": "8x A100 80GB",
+          "quant": "INT4",
+          "prob": 0.282,
+          "tier": "Enterprise"
+        }
+      ],
+      "DeepSeek-V3.2-685B": [
+        {
+          "config": "8x H200 SXM",
+          "quant": "INT4",
+          "prob": 1.0,
+          "tier": "Enterprise"
+        },
+        {
+          "config": "4x H200 SXM",
+          "quant": "INT4",
+          "prob": 0.915,
+          "tier": "Enterprise"
+        },
+        {
+          "config": "8x A100 80GB",
+          "quant": "INT4",
+          "prob": 0.265,
+          "tier": "Enterprise"
+        },
+        {
+          "config": "8x H100 SXM",
+          "quant": "INT4",
+          "prob": 0.255,
+          "tier": "Enterprise"
+        }
+      ],
+      "Kimi-K2-1T": [
+        {
+          "config": "8x H200 SXM",
+          "quant": "INT4",
+          "prob": 1.0,
+          "tier": "Enterprise"
+        },
+        {
+          "config": "8x A100 80GB",
+          "quant": "INT4",
+          "prob": 0.805,
+          "tier": "Enterprise"
+        },
+        {
+          "config": "8x H100 SXM",
+          "quant": "INT4",
+          "prob": 0.335,
+          "tier": "Enterprise"
+        }
+      ]
+    },
+    "consumer_win_rate": {
+      "Llama-3.2-3B": 1.0,
+      "Llama-3.1-8B": 1.0,
+      "Gemma-3-12B": 1.0,
+      "Phi-4-14B": 1.0,
+      "Qwen3-14B": 0.995,
+      "Mistral-Small-3.1-24B": 0.943,
+      "Gemma-3-27B": 0.902,
+      "Qwen3-30B-A3B": 1.0,
+      "Qwen3-32B": 0.892,
+      "Llama-3.3-70B": 0.425,
+      "Qwen2.5-72B": 0.365,
+      "gpt-oss-120B": 0.93,
+      "Mistral-Large-123B": 0.0,
+      "Qwen3-235B-A22B": 0.0,
+      "GLM-4.6-357B": 0.0,
+      "Llama-4-Maverick-400B": 0.0,
+      "Llama-3.1-405B": 0.0,
+      "DeepSeek-V3.2-685B": 0.0,
+      "Kimi-K2-1T": 0.0
+    }
+  }
+}

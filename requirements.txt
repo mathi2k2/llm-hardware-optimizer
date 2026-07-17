@@ -1,0 +1,7 @@
+streamlit>=1.49
+pandas>=2.0
+numpy>=1.26
+plotly>=5.20
+seaborn>=0.13
+matplotlib>=3.8
+reportlab>=4.0    # thesis.pdf build (build_pdf.py)

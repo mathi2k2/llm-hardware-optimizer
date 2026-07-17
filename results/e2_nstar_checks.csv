@@ -1,0 +1,183 @@
+gpu,model,quant,n_star_first_order,n_star_exact,n_star_empirical,match_first_order,match_exact
+A100 80GB,GLM-4.6-357B,INT4,4,4,4,True,True
+A100 80GB,Gemma-3-12B,FP16,1,1,1,True,True
+A100 80GB,Gemma-3-12B,INT8,1,1,1,True,True
+A100 80GB,Gemma-3-27B,FP16,2,2,2,True,True
+A100 80GB,Gemma-3-27B,INT4,1,1,1,True,True
+A100 80GB,Gemma-3-27B,INT8,2,2,2,True,True
+A100 80GB,Llama-3.1-405B,INT4,8,8,8,True,True
+A100 80GB,Llama-3.1-8B,FP16,1,1,1,True,True
+A100 80GB,Llama-3.1-8B,INT8,1,1,1,True,True
+A100 80GB,Llama-3.3-70B,FP16,4,4,4,True,True
+A100 80GB,Llama-3.3-70B,INT4,2,2,2,True,True
+A100 80GB,Llama-3.3-70B,INT8,4,2,2,False,True
+A100 80GB,Llama-4-Maverick-400B,INT4,4,4,4,True,True
+A100 80GB,Mistral-Large-123B,FP16,8,8,8,True,True
+A100 80GB,Mistral-Large-123B,INT4,4,4,4,True,True
+A100 80GB,Mistral-Large-123B,INT8,4,4,4,True,True
+A100 80GB,Mistral-Small-3.1-24B,FP16,2,2,2,True,True
+A100 80GB,Mistral-Small-3.1-24B,INT4,1,1,1,True,True
+A100 80GB,Mistral-Small-3.1-24B,INT8,2,1,1,False,True
+A100 80GB,Phi-4-14B,FP16,1,1,1,True,True
+A100 80GB,Phi-4-14B,INT8,1,1,1,True,True
+A100 80GB,Qwen2.5-72B,FP16,4,4,4,True,True
+A100 80GB,Qwen2.5-72B,INT4,2,2,2,True,True
+A100 80GB,Qwen2.5-72B,INT8,4,4,4,True,True
+A100 80GB,Qwen3-14B,FP16,1,1,1,True,True
+A100 80GB,Qwen3-14B,INT8,1,1,1,True,True
+A100 80GB,Qwen3-235B-A22B,INT4,4,4,4,True,True
+A100 80GB,Qwen3-235B-A22B,INT8,8,4,4,False,True
+A100 80GB,Qwen3-30B-A3B,FP16,2,2,2,True,True
+A100 80GB,Qwen3-30B-A3B,INT4,1,1,1,True,True
+A100 80GB,Qwen3-30B-A3B,INT8,1,1,1,True,True
+A100 80GB,Qwen3-32B,FP16,2,2,2,True,True
+A100 80GB,Qwen3-32B,INT4,2,1,1,False,True
+A100 80GB,Qwen3-32B,INT8,2,2,2,True,True
+A100 80GB,gpt-oss-120B,FP16,4,4,4,True,True
+A100 80GB,gpt-oss-120B,INT4,2,2,2,True,True
+A100 80GB,gpt-oss-120B,INT8,2,2,2,True,True
+H100 SXM,GLM-4.6-357B,INT4,4,4,4,True,True
+H100 SXM,Gemma-3-12B,FP16,1,1,1,True,True
+H100 SXM,Gemma-3-12B,INT8,1,1,1,True,True
+H100 SXM,Gemma-3-27B,FP16,2,2,2,True,True
+H100 SXM,Gemma-3-27B,INT4,1,1,1,True,True
+H100 SXM,Gemma-3-27B,INT8,2,2,2,True,True
+H100 SXM,Llama-3.1-405B,INT4,8,8,8,True,True
+H100 SXM,Llama-3.1-8B,FP16,1,1,1,True,True
+H100 SXM,Llama-3.1-8B,INT8,1,1,1,True,True
+H100 SXM,Llama-3.3-70B,FP16,4,4,4,True,True
+H100 SXM,Llama-3.3-70B,INT4,2,2,2,True,True
+H100 SXM,Llama-3.3-70B,INT8,4,2,2,False,True
+H100 SXM,Llama-4-Maverick-400B,INT4,4,4,4,True,True
+H100 SXM,Mistral-Large-123B,FP16,8,8,8,True,True
+H100 SXM,Mistral-Large-123B,INT4,4,4,4,True,True
+H100 SXM,Mistral-Large-123B,INT8,4,4,4,True,True
+H100 SXM,Mistral-Small-3.1-24B,FP16,2,2,2,True,True
+H100 SXM,Mistral-Small-3.1-24B,INT4,1,1,1,True,True
+H100 SXM,Mistral-Small-3.1-24B,INT8,2,1,1,False,True
+H100 SXM,Phi-4-14B,FP16,1,1,1,True,True
+H100 SXM,Phi-4-14B,INT8,1,1,1,True,True
+H100 SXM,Qwen2.5-72B,FP16,4,4,4,True,True
+H100 SXM,Qwen2.5-72B,INT4,2,2,2,True,True
+H100 SXM,Qwen2.5-72B,INT8,4,4,4,True,True
+H100 SXM,Qwen3-14B,FP16,1,1,1,True,True
+H100 SXM,Qwen3-14B,INT8,1,1,1,True,True
+H100 SXM,Qwen3-235B-A22B,INT4,4,4,4,True,True
+H100 SXM,Qwen3-235B-A22B,INT8,8,4,4,False,True
+H100 SXM,Qwen3-30B-A3B,FP16,2,2,2,True,True
+H100 SXM,Qwen3-30B-A3B,INT4,1,1,1,True,True
+H100 SXM,Qwen3-30B-A3B,INT8,1,1,1,True,True
+H100 SXM,Qwen3-32B,FP16,2,2,2,True,True
+H100 SXM,Qwen3-32B,INT4,2,1,1,False,True
+H100 SXM,Qwen3-32B,INT8,2,2,2,True,True
+H100 SXM,gpt-oss-120B,FP16,4,4,4,True,True
+H100 SXM,gpt-oss-120B,INT4,2,2,2,True,True
+H100 SXM,gpt-oss-120B,INT8,2,2,2,True,True
+H200 SXM,DeepSeek-V3.2-685B,INT4,4,4,4,True,True
+H200 SXM,GLM-4.6-357B,INT4,2,2,2,True,True
+H200 SXM,GLM-4.6-357B,INT8,4,4,4,True,True
+H200 SXM,Gemma-3-12B,FP16,1,1,1,True,True
+H200 SXM,Gemma-3-27B,FP16,1,1,1,True,True
+H200 SXM,Gemma-3-27B,INT8,1,1,1,True,True
+H200 SXM,Llama-3.1-405B,INT4,4,4,4,True,True
+H200 SXM,Llama-3.1-405B,INT8,8,8,8,True,True
+H200 SXM,Llama-3.1-8B,FP16,1,1,1,True,True
+H200 SXM,Llama-3.3-70B,FP16,2,2,2,True,True
+H200 SXM,Llama-3.3-70B,INT4,1,1,1,True,True
+H200 SXM,Llama-3.3-70B,INT8,2,2,2,True,True
+H200 SXM,Llama-4-Maverick-400B,INT4,4,2,2,False,True
+H200 SXM,Llama-4-Maverick-400B,INT8,4,4,4,True,True
+H200 SXM,Mistral-Large-123B,FP16,4,4,4,True,True
+H200 SXM,Mistral-Large-123B,INT4,2,2,2,True,True
+H200 SXM,Mistral-Large-123B,INT8,2,2,2,True,True
+H200 SXM,Mistral-Small-3.1-24B,FP16,1,1,1,True,True
+H200 SXM,Mistral-Small-3.1-24B,INT8,1,1,1,True,True
+H200 SXM,Phi-4-14B,FP16,1,1,1,True,True
+H200 SXM,Qwen2.5-72B,FP16,2,2,2,True,True
+H200 SXM,Qwen2.5-72B,INT4,1,1,1,True,True
+H200 SXM,Qwen2.5-72B,INT8,2,2,2,True,True
+H200 SXM,Qwen3-14B,FP16,1,1,1,True,True
+H200 SXM,Qwen3-235B-A22B,FP16,8,8,8,True,True
+H200 SXM,Qwen3-235B-A22B,INT4,2,2,2,True,True
+H200 SXM,Qwen3-235B-A22B,INT8,4,4,4,True,True
+H200 SXM,Qwen3-30B-A3B,FP16,1,1,1,True,True
+H200 SXM,Qwen3-30B-A3B,INT4,1,1,1,True,True
+H200 SXM,Qwen3-30B-A3B,INT8,1,1,1,True,True
+H200 SXM,Qwen3-32B,FP16,1,1,1,True,True
+H200 SXM,Qwen3-32B,INT4,1,1,1,True,True
+H200 SXM,Qwen3-32B,INT8,1,1,1,True,True
+H200 SXM,gpt-oss-120B,FP16,4,4,4,True,True
+H200 SXM,gpt-oss-120B,INT4,1,1,1,True,True
+H200 SXM,gpt-oss-120B,INT8,2,2,2,True,True
+L40S,Gemma-3-12B,FP16,2,2,2,True,True
+L40S,Gemma-3-12B,INT4,2,1,1,False,True
+L40S,Gemma-3-12B,INT8,2,2,2,True,True
+L40S,Gemma-3-27B,FP16,4,4,4,True,True
+L40S,Gemma-3-27B,INT4,2,2,2,True,True
+L40S,Gemma-3-27B,INT8,2,2,2,True,True
+L40S,Llama-3.1-8B,FP16,2,2,2,True,True
+L40S,Llama-3.1-8B,INT4,1,1,1,True,True
+L40S,Llama-3.1-8B,INT8,1,1,1,True,True
+L40S,Llama-3.2-3B,FP16,1,1,1,True,True
+L40S,Llama-3.3-70B,INT4,4,4,4,True,True
+L40S,Llama-3.3-70B,INT8,4,4,4,True,True
+L40S,Mistral-Large-123B,INT4,4,4,4,True,True
+L40S,Mistral-Small-3.1-24B,FP16,4,4,4,True,True
+L40S,Mistral-Small-3.1-24B,INT4,2,2,2,True,True
+L40S,Mistral-Small-3.1-24B,INT8,2,2,2,True,True
+L40S,Phi-4-14B,FP16,2,2,2,True,True
+L40S,Phi-4-14B,INT4,2,1,1,False,True
+L40S,Phi-4-14B,INT8,2,2,2,True,True
+L40S,Qwen2.5-72B,INT4,4,4,4,True,True
+L40S,Qwen2.5-72B,INT8,4,4,4,True,True
+L40S,Qwen3-14B,FP16,2,2,2,True,True
+L40S,Qwen3-14B,INT4,2,1,1,False,True
+L40S,Qwen3-14B,INT8,2,2,2,True,True
+L40S,Qwen3-30B-A3B,FP16,4,2,2,False,True
+L40S,Qwen3-30B-A3B,INT4,2,1,1,False,True
+L40S,Qwen3-30B-A3B,INT8,2,2,2,True,True
+L40S,Qwen3-32B,FP16,4,4,4,True,True
+L40S,Qwen3-32B,INT4,2,2,2,True,True
+L40S,Qwen3-32B,INT8,4,2,2,False,True
+L40S,gpt-oss-120B,INT4,2,2,2,True,True
+RTX 3090,Gemma-3-12B,INT4,2,2,2,True,True
+RTX 3090,Gemma-3-12B,INT8,2,2,2,True,True
+RTX 3090,Gemma-3-27B,INT4,2,2,2,True,True
+RTX 3090,Llama-3.1-8B,FP16,2,2,2,True,True
+RTX 3090,Llama-3.1-8B,INT4,2,2,2,True,True
+RTX 3090,Llama-3.1-8B,INT8,2,2,2,True,True
+RTX 3090,Llama-3.2-3B,FP16,2,2,2,True,True
+RTX 3090,Llama-3.2-3B,INT4,2,1,1,False,True
+RTX 3090,Llama-3.2-3B,INT8,2,2,2,True,True
+RTX 3090,Mistral-Small-3.1-24B,INT4,2,2,2,True,True
+RTX 3090,Phi-4-14B,INT4,2,2,2,True,True
+RTX 3090,Phi-4-14B,INT8,2,2,2,True,True
+RTX 3090,Qwen3-14B,INT4,2,2,2,True,True
+RTX 3090,Qwen3-14B,INT8,2,2,2,True,True
+RTX 3090,Qwen3-30B-A3B,INT4,2,2,2,True,True
+RTX 3090,Qwen3-32B,INT4,2,2,2,True,True
+RTX 4090,Gemma-3-12B,FP16,4,4,4,True,True
+RTX 4090,Gemma-3-12B,INT4,4,2,2,False,True
+RTX 4090,Gemma-3-12B,INT8,4,4,4,True,True
+RTX 4090,Gemma-3-27B,INT4,4,4,4,True,True
+RTX 4090,Gemma-3-27B,INT8,4,4,4,True,True
+RTX 4090,Llama-3.1-8B,FP16,4,4,4,True,True
+RTX 4090,Llama-3.1-8B,INT4,2,2,2,True,True
+RTX 4090,Llama-3.1-8B,INT8,2,2,2,True,True
+RTX 4090,Llama-3.2-3B,FP16,2,2,2,True,True
+RTX 4090,Llama-3.2-3B,INT4,2,1,1,False,True
+RTX 4090,Llama-3.2-3B,INT8,2,2,2,True,True
+RTX 4090,Llama-3.3-70B,INT4,4,4,4,True,True
+RTX 4090,Mistral-Small-3.1-24B,INT4,4,4,4,True,True
+RTX 4090,Mistral-Small-3.1-24B,INT8,4,4,4,True,True
+RTX 4090,Phi-4-14B,FP16,4,4,4,True,True
+RTX 4090,Phi-4-14B,INT4,4,2,2,False,True
+RTX 4090,Phi-4-14B,INT8,4,4,4,True,True
+RTX 4090,Qwen2.5-72B,INT4,4,4,4,True,True
+RTX 4090,Qwen3-14B,FP16,4,4,4,True,True
+RTX 4090,Qwen3-14B,INT4,4,2,2,False,True
+RTX 4090,Qwen3-14B,INT8,4,4,4,True,True
+RTX 4090,Qwen3-30B-A3B,INT4,4,2,2,False,True
+RTX 4090,Qwen3-30B-A3B,INT8,4,4,4,True,True
+RTX 4090,Qwen3-32B,INT4,4,4,4,True,True
+RTX 4090,Qwen3-32B,INT8,4,4,4,True,True

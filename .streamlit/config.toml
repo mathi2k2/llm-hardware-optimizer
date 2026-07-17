@@ -1,0 +1,13 @@
+# Forces the enterprise dark theme regardless of the viewer's OS preference.
+[theme]
+base = "dark"
+primaryColor = "#00CFF0"
+backgroundColor = "#0E1117"
+secondaryBackgroundColor = "#161B26"
+textColor = "#E6EDF3"
+
+[server]
+headless = true
+
+[browser]
+gatherUsageStats = false
