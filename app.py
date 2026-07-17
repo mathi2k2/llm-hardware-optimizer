@@ -70,7 +70,17 @@ CUSTOM_CSS = """
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap');
 
-html, body, [data-testid="stAppViewContainer"] * { font-family: 'Inter','Segoe UI',system-ui,sans-serif; }
+/* Font via inheritance only — a `*` selector here would override Streamlit's
+   Material Symbols icon font and render icons as literal text. */
+html, body, .stApp, [data-testid="stAppViewContainer"],
+[data-testid="stSidebar"], [data-testid="stMarkdownContainer"] {
+    font-family: 'Inter', 'Segoe UI', system-ui, sans-serif;
+}
+/* belt & suspenders: never let anything repaint the icon glyphs */
+[data-testid="stIconMaterial"], .material-symbols-rounded, .material-symbols-outlined,
+span[translate="no"][class*="material-symbols"] {
+    font-family: 'Material Symbols Rounded' !important;
+}
 [data-testid="stAppViewContainer"] {
     background: radial-gradient(1100px 500px at 12% -8%, #121A2B 0%, #0E1117 55%);
 }
